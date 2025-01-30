@@ -4,7 +4,7 @@ FROM python:3.13.1
 WORKDIR /app
 
 
-COPY test.py
+COPY . /app
 
 
 EXPOSE 5000
