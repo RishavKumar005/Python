@@ -4,9 +4,9 @@ FROM python:3.13.1
 WORKDIR /app
 
 
-COPY . /app
+COPY test.py
 
 
 EXPOSE 5000
 
-CMD ["python3","test.py"]
+CMD ["python","test.py"]
